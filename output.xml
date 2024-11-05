@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Cart>
+	<Items>
+		<Item>
+			<Name>
+				ITEM 1
+			</Name>
+			<Id>
+				1234567890
+			</Id>
+			<Price>
+				$10.00
+			</Price>
+      <LinePrice>
+        $30.00
+      </LinePrice>
+			<Quantity>
+				3
+			</Quantity>
+		</Item>
+		<Item>
+			<Name>
+				ITEM 2
+			</Name>
+			<Id>
+				567898134
+			</Id>
+			<Price>
+				$18.00
+			</Price>
+      <LinePrice>
+        $18.00
+      </LinePrice>
+			<Quantity>
+				1
+			</Quantity>
+		</Item>
+	</Items>
+	<Customer>
+		<FirstName>
+			Philip
+		</FirstName>
+		<LastName>
+			Fry
+		</LastName>
+		<Occupation>
+			Intergalactic Delivery Boy
+		</Occupation>
+	</Customer>
+</Cart>
