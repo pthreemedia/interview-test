@@ -10,6 +10,8 @@ function encrypt(plaintext, key, iv) {
   };
 }
 
+console.log('test');
+
 function decrypt(ciphertext, key, iv, authTag) {
   const decipher = crypto.createDecipheriv('aes-256-gcm', key, iv);
   decipher.setAuthTag(Buffer.from(authTag, 'hex'));
